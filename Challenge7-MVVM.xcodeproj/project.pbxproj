@@ -11,6 +11,8 @@
 		41F4BC3F26AD0604005F44AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4BC3E26AD0604005F44AE /* ContentView.swift */; };
 		41F4BC4126AD060A005F44AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4BC4026AD060A005F44AE /* Assets.xcassets */; };
 		41F4BC4426AD060A005F44AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4BC4326AD060A005F44AE /* Preview Assets.xcassets */; };
+		41F4BC4F26AD0681005F44AE /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4BC4E26AD0681005F44AE /* Pizza.swift */; };
+		41F4BC5126AD072F005F44AE /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4BC5026AD072F005F44AE /* PizzaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		41F4BC4026AD060A005F44AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F4BC4326AD060A005F44AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41F4BC4526AD060A005F44AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F4BC4E26AD0681005F44AE /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		41F4BC5026AD072F005F44AE /* PizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				41F4BC3C26AD0604005F44AE /* Challenge7_MVVMApp.swift */,
-				41F4BC3E26AD0604005F44AE /* ContentView.swift */,
+				41F4BC4D26AD0633005F44AE /* ViewModels */,
+				41F4BC4C26AD0624005F44AE /* Models */,
+				41F4BC4B26AD061E005F44AE /* Views */,
 				41F4BC4026AD060A005F44AE /* Assets.xcassets */,
 				41F4BC4526AD060A005F44AE /* Info.plist */,
 				41F4BC4226AD060A005F44AE /* Preview Content */,
@@ -67,6 +73,30 @@
 				41F4BC4326AD060A005F44AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F4BC4B26AD061E005F44AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41F4BC3E26AD0604005F44AE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41F4BC4C26AD0624005F44AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41F4BC4E26AD0681005F44AE /* Pizza.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41F4BC4D26AD0633005F44AE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41F4BC5026AD072F005F44AE /* PizzaModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 			files = (
 				41F4BC3F26AD0604005F44AE /* ContentView.swift in Sources */,
 				41F4BC3D26AD0604005F44AE /* Challenge7_MVVMApp.swift in Sources */,
+				41F4BC5126AD072F005F44AE /* PizzaModel.swift in Sources */,
+				41F4BC4F26AD0681005F44AE /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
