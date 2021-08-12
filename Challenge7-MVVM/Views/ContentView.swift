@@ -25,10 +25,12 @@ struct ContentView: View {
                 }
             }
             
-            Button("Add pineapple") {
+            // Press this button to kill the souls of a thousand Italians
+            Button("🇮🇹 Destroy my pizza 🇮🇹") {
                 pizzaShop.addPineapple()
             }
             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            .padding(.bottom)
             
             
         }
